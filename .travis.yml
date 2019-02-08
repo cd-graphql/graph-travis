@@ -1,0 +1,12 @@
+language: node_js
+node_js:
+  - "8"
+
+before_script:
+- nvm install 8.10 && nvm use 8.10
+- npm install
+- npm install -g @commitlint/travis-cli
+- npm install -g apollo
+
+after_script:
+ - apollo schema:push  --endpoint="http://du0o.com:4000/graphql"
