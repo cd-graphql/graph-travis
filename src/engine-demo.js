@@ -2,7 +2,7 @@
  * 前端发送的信息
  */
 module.exports = {
-  schemaTag: 'current',
+  schemaTag: 'current2323',
   generateClientInfo: ({ request }) => {
     if (!request || !request.http) return {};
     const clientName = request.http.headers.get('client-name');
