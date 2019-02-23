@@ -1,3 +1,6 @@
+/**
+ * 前端发送的信息
+ */
 module.exports = {
   schemaTag: 'current',
   generateClientInfo: ({ request }) => {
