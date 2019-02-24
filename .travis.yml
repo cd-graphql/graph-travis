@@ -9,4 +9,4 @@ before_script:
 - npm install -g apollo
 
 after_script:
- - apollo schema:publish  --key="service:cd-graphql-1493:tA5PTDJyXpHA-L9wovqXeg"  --endpoint="http://du0o.com:4000/graphql"
+ - apollo schema:publish  --key="service:cd-graphql-1493:tA5PTDJyXpHA-L9wovqXeg"  --endpoint="http://du0o.com:4000/graphql" --tag=beta

@@ -1,5 +1,9 @@
 module.exports = {
-  service: {
-    name: 'space-explorer2',
-  },
+   client: {
+     name: 'Space Explorer [web]',
+      service: {
+        name: 'space-explorer2',
+      },
+   }
+ 
 };
