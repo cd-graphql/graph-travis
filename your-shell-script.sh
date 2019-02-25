@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 cd /root/travis
 # 暂时先这种方式进行
 sudo pm2 stop graph-travis
