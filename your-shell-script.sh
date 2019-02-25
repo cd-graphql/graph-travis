@@ -6,5 +6,5 @@ pm2 delete graph-travis
 rm -rf ./graph-travis
 git clone https://github.com/cd-graphql/graph-travis.git
 cd ~/travis/graph-travis
-npm i 
+npm i
 pm2 start src/index.js --name="graph-travis"
