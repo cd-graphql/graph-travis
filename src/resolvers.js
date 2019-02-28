@@ -1,15 +1,23 @@
 const { paginateResults } = require('./utils');
 
 module.exports = {
+   NameTest: {
+    //  name: ()=>{
+    //    return 'yangchongduo'
+    //  },
+       age:()=>{
+         return 10
+       }
+   },
   Query: {
-    name: async (_, {
-          pageSize = 20,
-          after
-        }, {
+    nameTest: async (_, {}, {
           dataSources
         }) => {
-          return 'yangchongduo'
-        },
+      return {
+          // name: 'yangchongduo',
+            age:10
+      }
+    },
     launches: async (_, { pageSize = 20, after }, { dataSources }) => {
       const allLaunches = await dataSources.launchAPI.getAllLaunches();
       // we want these in reverse chronological order

@@ -13,8 +13,12 @@ const typeDefs = gql`
       after: String
     ): LaunchConnection!
     launch(id: ID!): Launch
-    name:String
+    nameTest: NameTest
     me: User
+  }
+
+  type NameTest {
+    age:Int 
   }
 
   type Mutation {
