@@ -10,7 +10,7 @@ module.exports = {
        }
    },
   Query: {
-    nameTest: async (_, {}, {
+    name: async (_, {}, {
           dataSources
         }) => {
       return {
