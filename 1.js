@@ -9,3 +9,5 @@ console.log(87777);
 console.log(00000);
 
 console.log(13131);
+
+console.log(000000);
